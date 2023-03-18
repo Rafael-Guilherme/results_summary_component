@@ -1,0 +1,9 @@
+@use '../../Styles/reset/reset.scss';
+
+.results-chart {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
