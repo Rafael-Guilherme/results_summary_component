@@ -1,0 +1,97 @@
+@use '../../Styles/reset/reset.scss';
+@use '../../Styles/reset/colors.scss';
+
+.summary-charts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 50%;
+    padding: 32px;
+
+    background-color: colors.$color_white;
+    box-shadow: 5px 5px 10px rgba($color: #2b2b2b, $alpha: 0.1);
+
+    &-container {
+
+        // padding: 16px;
+
+        .summary-title {
+            color: colors.$color_dark_grey;
+        }
+
+        .status {
+            display: flex;
+            justify-content: space-between;
+            background-color: colors.$color_pale_blue;
+            border-radius: 10px;
+            width: 280px;
+            padding: 0 16px;
+            margin-top: 16px;
+    
+            &-title {
+                display: flex;
+    
+                &-img {
+                    margin-right: 8px;
+                }
+
+                .reaction {
+                    color: colors.$color_reaction;
+                    font-weight: bold;
+                }
+
+                .memory {
+                    color: colors.$color_memory;
+                    font-weight: bold;
+                }
+
+                .verbal {
+                    color: colors.$color_verbal;
+                    font-weight: bold;
+                }
+
+                .visual {
+                    color: colors.$color_visual;
+                    font-weight: bold;
+                }
+            }
+
+            .number {
+                font-weight: bold;
+            }
+
+            .number2 {
+                font-weight: 900;
+                color: hsla(224, 30%, 27%, 0.5);
+            }
+        }
+    
+        .summary-button {
+            background-color: colors.$color_dark_grey;
+            border: none;
+            width: 100%;
+            padding: 16px;
+            border-radius: 30px;
+            color: colors.$color_white;
+            font-size: larger;
+            cursor: pointer;
+            margin-top: 36px;
+
+            &:hover {
+                background-color: colors.$color_visual;
+            }
+        }
+    }
+
+}
+
+// @media screen and (max-width: 767px) {
+//     .summary-charts {
+//         width: 360px;
+//     }
+    
+// }

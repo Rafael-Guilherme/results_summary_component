@@ -3,5 +3,13 @@
 .container {
     display: flex;
     justify-content: center;
-    margin-top: 220px;
+    margin: 0 auto;
+    margin-top: 80px;
+    max-width: 720px;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        display: block;
+    }
 }

@@ -1,9 +1,65 @@
 @use '../../Styles/reset/reset.scss';
+@use '../../Styles/reset/colors.scss';
 
 .results-chart {
-    background-color: blue;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    border-radius: 30px;
+    width: 50%;
+    padding: 16px;
+
+    background: linear-gradient(to top, colors.$background_darker_grad, colors.$background_lighter_grad);
+
+    h2 {
+        color: colors.$color_light_grey;
+    }
+
+    .box-numbers {
+        width: 200px;
+        border-radius: 100%;
+        background: linear-gradient(to top, colors.$circle_darker_grad, colors.$circle_lighter_grad);
+        text-align: center;
+
+        &-two {
+            padding: 32px;
+
+            .bigger__number {
+                font-size: 64px;
+                font-weight: 900;
+                color: colors.$color_pale_blue;
+            }
+        
+            .small__number {
+                color: colors.$color_light_blue;
+                font-size: large;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .box-description {
+        text-align: center;
+        width: 260px;
+
+        h3 {
+            color: colors.$color_pale_blue;
+            font-size: 32px;
+            margin-bottom: 0;
+        }
+    
+        .description {
+            color: colors.$color_light_grey;
+            font-size: large;
+            padding-bottom: 10px;
+        }
+    }
 }
+
+// @media screen and (max-width: 767px) {
+//     .results-chart {
+//         width: 100%;
+//     }
+// }
