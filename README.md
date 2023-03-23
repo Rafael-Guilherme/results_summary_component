@@ -26,13 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![src\design\results_summary_desktop.png](./screenshot.png)
-![src\design\results_summary_button_hover.png](./screenshot.png)
-![src\design\results_summary_mobile.png](./screenshot.png)
+![src/design/results_summary_desktop.png](./screenshot.png)
+![src/design/results_summary_button_hover.png](./screenshot.png)
+![src/design/results_summary_mobile.png](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Github](https://github.com/Rafael-Guilherme/results_summary_component)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process

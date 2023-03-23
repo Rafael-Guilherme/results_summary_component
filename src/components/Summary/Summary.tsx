@@ -1,4 +1,5 @@
 import data from '../../data/data.json';
+import '../../assets/images/index'
 import '../Summary/summary.scss'
 
 const Summary = () => {
