@@ -17,7 +17,8 @@
 
     &-container {
 
-        // padding: 16px;
+        text-align: left;
+        padding: 16px;
 
         .summary-title {
             color: colors.$color_dark_grey;
@@ -28,9 +29,9 @@
             justify-content: space-between;
             background-color: colors.$color_pale_blue;
             border-radius: 10px;
-            width: 280px;
+            width: 240px;
             padding: 0 16px;
-            margin-top: 28px;
+            margin-top: 20px;
     
             &-title {
                 display: flex;
@@ -41,21 +42,25 @@
 
                 .category-Reaction {
                     color: colors.$color_reaction;
+                    font-size: large;
                     font-weight: bold;
                 }
 
                 .category-Memory {
                     color: colors.$color_memory;
+                    font-size: large;
                     font-weight: bold;
                 }
 
                 .category-Verbal {
                     color: colors.$color_verbal;
+                    font-size: large;
                     font-weight: bold;
                 }
 
                 .category-Visual {
                     color: colors.$color_visual;
+                    font-size: large;
                     font-weight: bold;
                 }
             }
@@ -98,4 +103,7 @@
         margin-left: -10px;
     }
     
+    .summary-title {
+        margin-bottom: 16px;
+    }
 }
