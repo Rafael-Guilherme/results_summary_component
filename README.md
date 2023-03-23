@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Rafael-Guilherme/results_summary_component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Results](https://results-summary-component-rafael-g.netlify.app/)
 
 ## My process
 

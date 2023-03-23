@@ -1,12 +1,12 @@
-import iconReaction from './icon_reaction.svg'
-import iconMemory from './icon_memory.svg'
-import iconVerbal from './icon_verbal.svg'
-import iconVisual from './icon_visual.svg'
+import icon_reaction from './icon_reaction.svg'
+import icon_memory from './icon_memory.svg'
+import icon_verbal from './icon_verbal.svg'
+import icon_visual from './icon_visual.svg'
 
 
 export default {
-    iconReaction,
-    iconMemory,
-    iconVerbal,
-    iconVisual
+    icon_reaction,
+    icon_memory,
+    icon_verbal,
+    icon_visual
 }

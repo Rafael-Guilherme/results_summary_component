@@ -1,5 +1,5 @@
 import data from '../../data/data.json';
-import '../../assets/images/index'
+import  '../../assets/images/index'
 import '../Summary/summary.scss'
 
 const Summary = () => {
@@ -12,7 +12,7 @@ const Summary = () => {
         {myData.map(item => (
           <div className="status" key={item.category}>
             <div className="status-title">
-              <img className="status-title-img" src={item.icon} alt={item.category} />
+                <img className="status-title-img" src={item.icon} alt={item.category} />
               <p className={`category-${item.category}`}>{item.category}</p>
             </div>
               <p>
@@ -21,10 +21,10 @@ const Summary = () => {
               </p>
           </div>
         ))}
+        
         <button className="summary-button" type="button">Continue</button>
       </div>
     </div>
   )
 }
-
 export default Summary
