@@ -27,19 +27,10 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop](src/design/results_summary_desktop.png)
-<p align="center">
-    <img alt="summary_desktop" src="src/design/results_summary_desktop.png" width="100%">
-</p>
 
 ![Button_hover](src/design/results_summary_button_hover.png)
-<p align="center">
-    <img alt="summary_button_hover" src="src/design/results_summary_button_hover.png" width="100%">
-  </p>
 
 ![Mobile](src/design/results_summary_mobile.png)
-<p align="center">
-    <img alt="summary_mobile" src="src/design/results_summary_mobile.png" width="50%">
-  </p>
 
 ### Links
 
