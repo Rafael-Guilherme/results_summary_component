@@ -26,19 +26,19 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./desktop.png)
+![Screenshot](desktop)
 <p align="center">
     <img alt="summary_desktop" src="src/design/results_summary_desktop.png" width="100%">
 </p>
 
-![Screenshot](./button_hover.png)
+![Screenshot](button_hover)
 <p align="center">
     <img alt="summary_button_hover" src="src/design/results_summary_button_hover.png" width="100%">
   </p>
 
-![Screenshot](./mobile.png)
+![Screenshot](mobile)
 <p align="center">
-    <img alt="summary_mobile" src="src/design/results_summary_mobile.png" width="100%">
+    <img alt="summary_mobile" src="src/design/results_summary_mobile.png" width="50%">
   </p>
 
 ### Links
